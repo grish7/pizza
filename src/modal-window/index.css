@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+.none{
+  display: none;
+}
+
+
+.modal-window {
+  background: rgb(194, 214, 228);
+  background-position: center;
+  color: rgb(3, 3, 3);
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+
+.modal-window-ingredients,
+.modal-window-subject{
+  color:#fff;
+  text-shadow: black 2px 2px 3px;  
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.modal-window-ingredients{
+  font-size: 20px;
+  text-align:left;
+  margin-left: 40px;
+}
+
+.modal-window-sum{  
+  text-shadow: black 2px 2px 3px; 
+  border-radius: 30px;
+  width: 300px;
+  height: 60px;
+  position: absolute;  
+  bottom: 8%;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+
+.close{
+  width: 30px;
+  height: 30px;  
+  background-image:url(img/pngwing2.com.png);
+  background-size:contain; 
+  background-repeat: no-repeat;  
+  position: absolute;
+  left: 105%;
+  top: -10%;
+  cursor: pointer;
+}
+
+.close:hover{  
+  width: 50px;
+  height: 50px;  
+}
+
+
+

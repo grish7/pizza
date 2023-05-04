@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проект</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Проект "Конструктор пиццы"</h1>
+  </div>
+  <div class="wrapper1">
+
+    <div class="pizza">
+      <div class="image picture-1 none"></div>
+      <div class="image picture-2 none"></div>
+      <div class="image picture-3 none"></div>
+      <div class="image picture-4 none"></div>
+    </div>
+
+
+    <div class="block-right">
+      <div class="wrap">
+        <ol>
+          <li class="name">Основа
+            <ul>
+              <li class="col-1-block">
+                <span data-type="col-1">Маленькая  32см<p class="cost">1</p></span><br>
+                <span data-type="col-1">Средняя  35 см <p class="cost">2</p></span><br>
+                <span data-type="col-1">Большая  40 см <p class="cost">3</p></span><br>
+                <span data-type="col-1">Семейная  50 см <p class="cost">4</p></span><br>
+              </li>   
+            </ul>
+          </li> 
+        </ol>
+
+        <ol>
+          <li class="name">Мясо
+            <ul>
+              <li class="col-2-block">
+                <span data-type="col-2">Курица <p class="cost">5</p></span><br>
+                <span data-type="col-2">Ветчина <p class="cost">6</p></span><br>
+                <span data-type="col-2">Бекон <p class="cost">7</p></span><br>
+                <span data-type="col-2">Пепперони <p class="cost">8</p></span><br>
+              </li>   
+            </ul>
+          </li>
+        </ol>
+
+        <ol>
+          <li class="name">Овощи
+            <ul>
+              <li class="col-3-block">              
+                <span data-type="col-3">Сладкий перец <p class="cost">4</p></span><br>
+                <span data-type="col-3">Томаты <p class="cost">1</p></span><br>
+                <span data-type="col-3">Маслины <p class="cost">1</p></span><br>
+                <span data-type="col-3">Шампиньоны <p class="cost">7</p></span><br>
+              </li>   
+            </ul>
+          </li>
+        </ol>
+
+        <ol>
+          <li class="name">Соус
+            <ul>
+              <li class="col-4-block">
+                <span data-type="col-4">Альфредо <p class="cost">3</p></span><br>
+                <span data-type="col-4">Томатный <p class="cost">2</p></span><br>
+                <span data-type="col-4">Сырный <p class="cost">5</p></span><br>
+                <span data-type="col-4">Барбекю <p class="cost">10</p></span><br>
+              </li>   
+            </ul>
+          </li>
+        </ol> 
+  
+      <button class="basket">Корзина</button>
+      
+    </div>
+  </div>
+
+
+      <div class="modal-window none"> 
+        <p class="close"></p>           
+        <p class="modal-window-subject"></p>
+        <ol class="modal-window-ingredients"></ol>           
+        <p class="modal-window-sum"></p>        
+        <button class="modal-window-btn"  disabled>Заказать</button>    
+      </div>
+
+</body>
+</html>

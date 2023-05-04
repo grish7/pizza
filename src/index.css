@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{  
+  width: 100%;
+  height: 100%;
+}
+
+
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(184, 205, 207);
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  text-shadow: black 2px 2px 3px;
+  font-size: 50px;
+}
+
+
+
+.wrapper1{  
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+.block-right{
+  width: 60%;  
+}
+
+.wrap{
+  display: flex;  
+  height: 250px;
+  justify-content: space-between;  
+  margin-top: 60px;
+  margin-right: 80px;
+
+  
+}
+.name{  
+  margin: 0 40px;  
+  font-size: 30px;  
+}
+
+li{
+  display: block;  
+  font-size: 20px; 
+}
+
+.col-1{
+  font-style: none;
+  color: black;
+}
+
+.basket,
+.modal-window-btn{ 
+  width: 250px;
+  height: 60px;
+  background-color: rgb(217, 231, 230);  
+  border-radius: 30px;
+  position: absolute;
+  bottom: 150px;
+  margin: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: black 2px 2px 3px;  
+  cursor:pointer;
+  box-shadow: rgba(8, 8, 8, 0.185) 2px 5px 5px;  
+}
+
+.modal-window-btn{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;  
+}
+
+.basket{
+  position: absolute;  
+  top: 45%;
+  right: 10%;
+}
+
+.modal-window-btn:hover,
+.basket:hover{
+  transition: 0.7s;
+  font-size: 35px;
+}
+
+.cost{
+  display: none;
+} 
+
+span{
+  cursor:pointer;  
+}
+span:hover{
+  transition: 0.5s;
+  font-size: 25px;
+  color: coral;  
+  text-shadow: rgb(0, 0, 0) 1px 1px 1.5px;  
+}
+
+.nnone{
+  pointer-events:none;
+}
+

@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.pizza{ 
+  width: 600px;
+  height: 600px;
+  margin: 60px;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.none{
+  display: none; 
+}
+
+.image{
+  width: 50%;
+  height: 50%;
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  filter: grayscale(60%);
+}
+
+
+.picture-1{
+  background-image: url(img/1.png);
+} 
+
+.picture-2{
+  background-image: url(img/2.png);
+}
+
+.picture-3{
+  background-image: url(img/3.png);
+}
+
+.picture-4{
+  background-image: url(img/4.png);
+}
+
+
